@@ -1,0 +1,16 @@
+{
+  "name": "vanilla-sad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sad.js",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w public/sass -o public/css"
+  },
+  "author": "",
+  "license": "ISC"
+}
