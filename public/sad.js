@@ -42,12 +42,12 @@ const handleSadClick = button => {
 
 handleSadClick(buttons);
 
-const handleTrick = button => {
-  button.addEventListener(
+const handleTrick = trik => {
+  trik.addEventListener(
     "click",
-    button => {
-      button.innerHTML = "<h4>Still Bad</h4>";
-      button.style.backgroundColor = "red";
+    () => {
+      trik.innerHTML = "<h4>Still Bad</h4>";
+      trik.style.backgroundColor = "red";
     },
     false
   );
