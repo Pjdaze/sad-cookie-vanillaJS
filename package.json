@@ -1,17 +1,21 @@
 {
   "name": "vanilla-sad",
+  "homepage": "https://pjdaze.github.io/sad-cookie-vanillaJS/.",
   "version": "1.0.0",
   "description": "",
   "main": "sad.js",
   "dependencies": {
     "express": "^4.17.1",
-    "node-sass": "^4.13.0"
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0",
+    "save": "^2.4.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w public/sass -o public/css",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "deploy": "gh-pages -d build"
   },
   "author": "pjdux",
   "license": "ISC"
