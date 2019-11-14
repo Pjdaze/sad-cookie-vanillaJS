@@ -8,7 +8,7 @@ const app = express();
 const PORT = 8080;
 
 // create a route for the app
-app.use("*", express.static(path.join(__dirname, "public")));
+app.use("/", express.static(path.join(__dirname, "public")));
 
 // make the server listen to requests
 app.listen(PORT, () => {

@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w public/sass -o public/css"
+    "sass": "node-sass -w public/sass -o public/css",
+    "start": "nodemon server.js"
   },
   "author": "pjdux",
   "license": "ISC"
