@@ -6,7 +6,7 @@
   "main": "sad.js",
   "dependencies": {
     "express": "^4.17.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "save": "^2.4.0"
   },
   "devDependencies": {
